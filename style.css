@@ -1,0 +1,15 @@
+#home {
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    padding-left: 30px;
+    height: 600px;
+}
+
+#home h1 {
+    color:aqua;
+    font-size: 48px;
+    margin-bottom: 20px;
+    border-color: aqua;
+}
