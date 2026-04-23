@@ -3,6 +3,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding: 15px 0;
     position: absolute;
     top: 0;
     left: 0;
@@ -13,7 +14,25 @@
 .logo {
     color: whitesmoke;
     font-size: 20px;
-    margin-left: 50px;
+    margin-left: 40px;
+}
+
+.header ul {
+    display: flex;
+    gap:20px; 
+    flex-direction: row;
+    margin-right: 40px;
+    font-weight: bold;
+}
+
+.header a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.header a:hover {
+    opacity: 0.7;
 }
 
 .home {
