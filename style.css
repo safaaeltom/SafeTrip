@@ -35,6 +35,35 @@
     opacity: 0.7;
 }
 
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px 80px;
+}
+
+.about h2 {
+    color: rgb(240, 102, 102);
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.about ul {
+    font-size: larger;
+    font-style: italic;
+}
+
+.about button {
+    background-color: rgb(240, 102, 102);
+    color: whitesmoke;
+    font-weight: bold;
+    padding: 12px 12px;
+    border-radius: 8px;
+    border:none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
 .home {
     background: 
     linear-gradient(
