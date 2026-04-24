@@ -100,13 +100,14 @@
     font-weight: bold;
     padding: 15px 20px;
     border-radius: 10px;
+    border-color: transparent;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px;
+    transition: background-color 0.3s ease;
 }
 
 .btn:hover {
-    background-color: rgb(240, 40, 40);
+    background-color: rgb(200, 80, 80);
 }
 
 .cars {
@@ -116,7 +117,7 @@
     background-color: rgb(70, 70, 70);
     text-align: center;
     gap: 40px;
-    padding: 50px 80px;
+    padding: 70px 80px;
     color: black;
 }
 
@@ -205,4 +206,9 @@ footer a {
 
 footer a:hover {
     color: rgb(240, 102, 102);
+}
+
+.highlight {
+    color: rgb(240, 102, 102);
+    font-weight: bold;
 }
