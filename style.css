@@ -1,6 +1,7 @@
 .header {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding: 15px 0;
@@ -48,7 +49,7 @@
     flex-direction: column;
     justify-content: space-between;
     min-height: 100vh;
-    width: 100%;
+    max-width: 100%;
 
     position: relative;
     padding: 50px;
@@ -57,21 +58,20 @@
 .home-content {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    justify-items: flex-start;
     padding: 70px 0;
 }
 
 .home h1 {
     color:whitesmoke;
-    font-size: 100px;
-    padding-left: 60px;
+    font-size: 80px;
+    padding-left: 50px 0;
     margin: 0;
 }
 
 .home p {
     color: rgb(240, 102, 102);
     font-size: 25px;
-    text-align: center;
     padding-left: 90px;
     margin: 0;
 }
@@ -99,15 +99,17 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding: 50px 80px;
+    padding: 60px 40px;
+    max-width: 100%;
     gap: 40px;
 }
 
 .about-content {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    gap: 20p;
+    gap: 20px;
 }
 
 .about h2 {
@@ -140,13 +142,14 @@
 
 .cars {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(70, 70, 70);
-    text-align: center;
-    width: 100%;
+    align-items: center;
+    max-width: 100%;
+    padding: 60px 40px;
     gap: 40px;
-    padding: 70px 20px;
 }
 
 .car-gallery {
@@ -162,7 +165,7 @@
     border-radius: 20px;
     box-shadow: 0 8px 20px rgba(0,0,0,0.08);
     transition: transform 0.4s ease;
-    flex: 1;
+    flex: 1 1 200px;
 }
 
 .car-gallery figure:hover {
@@ -170,6 +173,7 @@
 }
 
 .car-gallery img {
+    width: 100%;
     width: 100%;
     height:200px;
     object-fit: cover;
@@ -190,9 +194,11 @@
 .testimonials {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     text-align: center;
-    gap: 30px;
-    padding: 50px 80px;
+    max-width: 100%;
+    gap: 40px;
+    padding: 60px 40px;
 }
 
 .testimonials-header {
@@ -211,12 +217,14 @@
 footer {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     background-color: rgb(70, 70, 70);
     color: rgb(174, 173, 173);
     text-align: center;
-    padding: 30px 20px;
+    padding: 20px 40px;
     font-size: 15px;
+    max-width: 100%;
     height: auto;
 }
 
