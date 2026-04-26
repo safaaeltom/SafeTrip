@@ -5,8 +5,6 @@
     align-items: center;
     padding: 15px 0;
     position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     z-index: 10;
 }
@@ -44,22 +42,23 @@
     url("images/background.jpg");
 
     background-size: cover;
-    background-position: 40% 50%;
+    background-position: center;
 
     display: flex;
     flex-direction: column;
-    gap: 530px;
+    justify-content: space-between;
+    min-height: 100vh;
+    width: 100%;
 
     position: relative;
-    height: 800px;
-    padding: 60px;
+    padding: 50px;
 }
 
 .home-content {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-top: 70px;
+    padding: 70px 0;
 }
 
 .home h1 {
@@ -83,11 +82,11 @@
     font-weight: bold;
     padding: 20px 25px;
     border-radius: 10px;
-    margin-left: 600px;
     border-color: transparent;
     text-decoration: none;
     font-size: 16px;
     align-self: center;
+    margin-bottom: 20px;
     transition: background-color 0.3s ease;
 }
 
@@ -99,6 +98,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     padding: 50px 80px;
     gap: 40px;
 }
@@ -107,7 +107,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 40px;
+    gap: 20p;
 }
 
 .about h2 {
@@ -144,13 +144,15 @@
     justify-content: space-between;
     background-color: rgb(70, 70, 70);
     text-align: center;
+    width: 100%;
     gap: 40px;
-    padding: 70px 80px;
+    padding: 70px 20px;
 }
 
 .car-gallery {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
@@ -187,8 +189,7 @@
 
 .testimonials {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-wrap: wrap;
     text-align: center;
     gap: 30px;
     padding: 50px 80px;
