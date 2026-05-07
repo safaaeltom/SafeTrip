@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+}
+
 html, body {
     overflow-x: hidden;
 }
@@ -6,7 +10,7 @@ html, body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px clamp(16px, 5vw, 40px);
+    padding: 20px clamp(16px, 5vw, 40px);
     position: absolute;
     left: 0;
     right: 0;
@@ -243,6 +247,7 @@ footer {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
     background-color: rgb(70, 70, 70);
     color: rgb(174, 173, 173);
     text-align: center;
